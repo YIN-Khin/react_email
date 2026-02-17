@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import { LogOut, Settings } from "lucide-react";
 import NotificationDropdown from "../notifications/NotificationDropdown";
-// import ims from "../../assets/images/LgIMS.png";
+import ims from "../../assets/images/invetoryims.png";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -41,11 +41,11 @@ const Header = () => {
       <div className="mx-auto flex h-[70px]  items-center justify-between px-4 sm:px-6">
         {/* Left - Logo & Title */}
         <Link to="/dashboard" className="flex items-center gap-2.5 group">
-          {/* <div className="h-14 w-14 rounded-full bg-gradient-to-br from-blue-600 to-indigo-600 shadow-sm flex items-center justify-center overflow-hidden">
+          <div className="h-14 w-14 rounded-full bg-gradient-to-br from-blue-600 to-indigo-600 shadow-sm flex items-center justify-center overflow-hidden">
             <img src={ims} alt="IMS" className="h-14 w-14 object-contain" />
-          </div> */}
+          </div>
           <span className="hidden sm:block text-base font-bold text-gray-900 group-hover:text-blue-600 transition">
-            Invetory Management System
+             Stock Store
           </span>
         </Link>
 
