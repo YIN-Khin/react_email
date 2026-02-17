@@ -729,7 +729,6 @@
 // };
 
 // export default ProductList;
-
 // src/pages/products/ProductList.jsx
 import React, { useEffect, useState, useMemo } from "react";
 import { fetchProducts, deleteProduct } from "../../api/product.api";
